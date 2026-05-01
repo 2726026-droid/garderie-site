@@ -211,6 +211,16 @@ nav a:hover {
  
 }
 
+/*Bloc*/
+
+.bloc {
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
 /*Services*/
 
 
@@ -376,6 +386,9 @@ input:focus, textarea:focus {
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
+
+
+
 /* Galerie.html */
 
 .galerie {
@@ -502,4 +515,24 @@ input:focus, textarea:focus {
     gap: 10px;
     margin-top: 15px;
   }
+}
+
+/* LANGUES */
+.langues {
+  display: flex;
+  gap: 8px;
+}
+
+.langues a {
+  background-color: white;
+  color: #333;
+  padding: 6px 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.langues a:hover {
+  background-color: #ff9f1c;
+  color: white;
 }
